@@ -29,6 +29,7 @@ $(document).ready(function(){
         current_card = 0;
         $('#deck').show('fast');
         $('#delt').empty();
+        $('#left').text(52);
     }
     reset();
     $('#shuffle').click(reset);
